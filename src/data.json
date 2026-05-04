@@ -1,0 +1,125 @@
+{
+    "personal_info": {
+        "name": "Md. Shifat Bin Reza",
+        "title": "QA Engineer",
+        "phone": "+880-1794-775275",
+        "email": "shifatbinreza2@gmail.com",
+        "linkedin": "https://linkedin.com/shifat2",
+        "github": "https://github.com/shifat97",
+        "summary": "QA Engineer specializing in end-to-end test automation and API validation, with expertise in Playwright, Selenium, Pytest, and Postman/Newman. Experienced in designing modular test frameworks, executing full SDLC/STLC processes, and reporting defects in Agile/Scrum environments. Committed to shipping stable, well-tested software through both rigorous manual testing and data-driven automation."
+    },
+    "technical_skills": {
+        "languages": ["Python", "JavaScript", "TypeScript", "C/C++", "Java", "SQL"],
+        "test_automation_performance": ["Playwright", "Selenium", "Pytest", "HTML Report Generation", "JMeter"],
+        "manual_testing": [
+            "Test Case Design",
+            "Bug Reporting",
+            "Regression",
+            "Smoke & Sanity Testing",
+            "RCA",
+            "Functional Testing"
+        ],
+        "api_testing": ["Postman", "Newman", "REST API Validation", "Schema Validation", "Request/Response Integrity"],
+        "technologies": ["React.js", "Node.js", "Express.js", "HTML", "CSS", "Tailwind", "Bootstrap", "MongoDB"],
+        "tools_process": ["Jira", "ClickUp", "Git", "GitHub", "Agile (Scrum)", "SDLC", "STLC"]
+    },
+    "experience": [
+        {
+            "company": "Creative Soft Technology LTD.",
+            "role": "Software QA Intern",
+            "location": "Dhaka, Bangladesh",
+            "period": "Sep 2023 – Dec 2023",
+            "responsibilities": [
+                "Designed and executed 50+ manual test cases covering smoke, sanity, and regression testing for web platforms; identified and reported 10+ critical bugs pre-release, preventing production defects and maintaining product stability.",
+                "Tested and validated 30+ REST API endpoints using Postman, verifying authentication flows, data accuracy, and response reliability to ensure seamless backend-frontend integration.",
+                "Participated in Sprint planning sessions, documented defects in Jira, and supported efficient defect resolution within the Agile development team, adhering to full SDLC and STLC processes."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "OrangeHRM UI Automation",
+            "link": "https://github.com/shifat97/orangehrm-ui-automation",
+            "period": "Apr 2026 - May 2026",
+            "highlights": [
+                "Developed a scalable UI automation framework using Playwright and TypeScript, implementing the Page Object Model (POM) to reduce code duplication by 35% and improve script maintainability.",
+                "Optimized test execution time by 50% by implementing a global authentication strategy that reuses login states, eliminating redundant login steps across multiple test suites.",
+                "Integrated faker-js to generate dynamic, unique test data for complex form submissions, increasing test reliability and reducing data-related failures by 20%.",
+                "Configured parallel test execution and automated HTML reporting, reducing total test duration from minutes to seconds across 100+ critical validation scenarios."
+            ]
+        },
+        {
+            "title": "API Automation Framework",
+            "link": "https://github.com/shifat97/teachers-api-automation-pytest",
+            "period": "Apr 2026 - Apr 2026",
+            "highlights": [
+                "Built a modular REST API test automation framework using Python and Pytest, covering full CRUD operations, JWT authentication, and dynamic filtering with a 97.7% test case pass rate.",
+                "Implemented a layered architecture separating API wrappers, test logic, and utilities — improving maintainability and scalability across the test suite.",
+                "Integrated Faker library for dynamic test data generation and Pytest fixtures for session-based JWT token management, ensuring reliable and repeatable test execution.",
+                "Automated HTML report generation using pytest-html with detailed request/response logs, enabling clear failure diagnostics and test execution visibility for stakeholders."
+            ]
+        },
+        {
+            "title": "API Testing (Postman)",
+            "link": "https://github.com/shifat97/ait-student-management-api",
+            "period": "Feb 2026 - Feb 2026",
+            "highlights": [
+                "Tested 23 RESTful API endpoints for a student management system, validating functionality, data integrity, business rule compliance, and error handling across all scenarios.",
+                "Automated API test workflows using Postman scripts, reducing manual test execution effort and enabling repeatable regression runs.",
+                "Implemented schema validation for request and response payloads, detecting structural inconsistencies and enforcing data consistency standards early in the test cycle.",
+                "Generated detailed HTML reports using Newman CLI, providing clear test result tracking and enabling stakeholder-ready regression analysis documentation."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Daffodil International University",
+            "degree": "Bachelor of Science in Computer Science & Engineering",
+            "gpa": "3.58 / 4.00",
+            "location": "Dhaka, Bangladesh",
+            "period": "2020 - 2024",
+            "coursework": [
+                "Data Structures and Algorithms",
+                "Artificial Intelligence",
+                "Machine Learning",
+                "Database Management Systems",
+                "Operating System"
+            ]
+        },
+        {
+            "institution": "Shahid Govt. Bul Bul College",
+            "degree": "Higher Secondary Certificate",
+            "gpa": "4.33 / 5.00",
+            "location": "Pabna, Bangladesh",
+            "period": "2017 - 2019",
+            "coursework": ["Science"]
+        },
+        {
+            "institution": "Pabna Zilla School",
+            "degree": "Secondary School Certificate",
+            "gpa": "5.00 / 5.00",
+            "location": "Pabna, Bangladesh",
+            "period": "2011 - 2017",
+            "coursework": ["Science"]
+        }
+    ],
+    "training": [
+        {
+            "institution": "Codecamp by Astha.IT",
+            "program": "Software Quality Assurance (SQA) Bootcamp",
+            "location": "Dhaka, Bangladesh",
+            "period": "January 2026 - Present",
+            "topics": [
+                "Manual Testing: Comprehensive coverage of SDLC, STLC, and bug reporting methodologies.",
+                "API Testing: Validation of RESTful services using Postman, Newman, and schema integrity checks.",
+                "Automation Testing: Building robust frameworks with Playwright and Pytest for end-to-end validation.",
+                "Performance Testing: Analyzing system stability and response times under load using JMeter.",
+                "Real-World Projects: Hands-on experience applying SQA principles to complex web applications."
+            ]
+        }
+    ],
+    "awards": [
+        "Achieved a 40% scholarship for 9 consecutive semesters in recognition of academic excellence at the university."
+    ],
+    "certifications": ["English Proficiency Test (Upper Intermediate: CEFR B2), Duolingo [ 2025 ]"]
+}
