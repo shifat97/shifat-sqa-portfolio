@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExternalLink } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 interface TimelineItemProps {
   title: string;
@@ -14,7 +15,13 @@ interface TimelineItemProps {
 
 const TimelineItem: React.FC<TimelineItemProps> = ({ title, subtitle, period, location, link, items, children, icon = '💼' }) => {
   return (
-    <div className="relative pl-8 pb-12 last:pb-0">
+    <motion.div 
+      initial={{ opacity: 0, x: -20 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5 }}
+      className="relative pl-8 pb-12 last:pb-0"
+    >
       {/* Vertical Line */}
       <div className="absolute left-[11px] top-0 h-full w-[2px] bg-slate-200 dark:bg-slate-700 last:hidden"></div>
       
@@ -71,7 +78,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ title, subtitle, period, lo
           </div>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
