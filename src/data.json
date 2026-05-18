@@ -20,19 +20,36 @@
             "Functional Testing"
         ],
         "api_testing": ["Postman", "Newman", "REST API Validation", "Schema Validation", "Request/Response Integrity"],
+        "ci_cd": ["Jenkins", "GitHub Action"],
         "technologies": ["React.js", "Node.js", "Express.js", "HTML", "CSS", "Tailwind", "Bootstrap", "MongoDB"],
         "tools_process": ["Jira", "ClickUp", "Git", "GitHub", "Agile (Scrum)", "SDLC", "STLC"]
     },
     "experience": [
+        {
+            "company": "BongoDev",
+            "role": "Full-Stack Developer Intern",
+            "location": "Dhaka, Bangladesh",
+            "period": "Jan 2025 – Sep 2025",
+            "responsibilities": [
+                "Completed a 6-month full-stack training program covering React, Node.js, and Express, then contributed for 3 months to a real-world event management system, applying skills in a production environment.",
+                "Conducted thorough code reviews alongside seniors, ensuring best practices and maintaining codebase quality standards.",
+                "Collaborated with other developers on pull request reviews, reinforcing clean code principles and team-driven development workflows.",
+                "Designed and developed production-grade REST API services and reusable React components, including comprehensive API documentation using Swagger.",
+                "Engineered backend infrastructure including rate limiting, Zod-based schema validation, and end-to-end authentication systems.",
+                "Participated in Agile sprint sessions with seniors, presenting project progress and contributing to team planning discussions."
+            ]
+        },
         {
             "company": "Creative Soft Technology LTD.",
             "role": "Software QA Intern",
             "location": "Dhaka, Bangladesh",
             "period": "Sep 2023 – Dec 2023",
             "responsibilities": [
-                "Designed and executed 50+ manual test cases covering smoke, sanity, and regression testing for web platforms; identified and reported 10+ critical bugs pre-release, preventing production defects and maintaining product stability.",
-                "Tested and validated 30+ REST API endpoints using Postman, verifying authentication flows, data accuracy, and response reliability to ensure seamless backend-frontend integration.",
-                "Participated in Sprint planning sessions, documented defects in Jira, and supported efficient defect resolution within the Agile development team, adhering to full SDLC and STLC processes."
+                "Completed one month hands-on training in Manual Testing and API Testing using Postman, gaining practical exposure to real-world QA workflows.",
+                "Performed comprehensive manual testing on a production dashboard, identifying data inconsistencies, UI defects, cross-browser compatibility issues, and functional regressions.",
+                "Validated 10+ REST APIs using Postman, verifying response payloads, data structures, status codes, success/error messages, and edge case handling.",
+                "Managed and tracked bugs and tasks using Jira, maintaining organized records of test findings and issue statuses throughout the project lifecycle.",
+                "Documented detailed test findings and reports, and actively participated in sprint planning sessions with the team lead to align on QA priorities."
             ]
         }
     ],
@@ -68,6 +85,14 @@
                 "Automated API test workflows using Postman scripts, reducing manual test execution effort and enabling repeatable regression runs.",
                 "Implemented schema validation for request and response payloads, detecting structural inconsistencies and enforcing data consistency standards early in the test cycle.",
                 "Generated detailed HTML reports using Newman CLI, providing clear test result tracking and enabling stakeholder-ready regression analysis documentation."
+            ]
+        },
+        {
+            "title": "WowGerman: Manual Testing",
+            "link": "https://github.com/shifat97/wowgerman-manual-testing",
+            "period": "Jan 2026 - Jan 2026",
+            "highlights": [
+                "Executed 55+ manual test cases across Authentication, UI, and core features, achieving a 98% pass rate. Validated Google OAuth, responsive design, and session management across multiple modules."
             ]
         }
     ],
